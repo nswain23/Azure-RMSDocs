@@ -310,7 +310,8 @@ Use the following three steps to request that Microsoft deletes personal data in
 
 - To delete the administration log, provide the **end date**. All admin logs until that end date will be deleted.
 - To delete the usage logs, provide the **end date**. All usage logs until that end date will be deleted.
-- To delete the document tracking logs, provide the **end date** and **UserEmail**. All document tracking information relating to the UserEmail until that end date will be deleted. Regular expression (Perl format) for UserEmail is supported.
+- To delete the document tracking logs for a specific user, provide the **end date** and **UserEmail**. All document tracking information relating to the UserEmail until that end date will be deleted. Regular expression (Perl format) for UserEmail is supported.
+- To delete the document tracking logs for the tenant, provide the **end date**. All document tracking information for all users until the end date will be deleted. 
 
 Deleting this data is a permanent action. There is no means to recover the data after a delete request has been processed. It is recommended that administrators export the required data before submitting a delete request.
 
